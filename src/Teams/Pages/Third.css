@@ -1,0 +1,89 @@
+.third-wrapper
+{
+    display: flex;
+    width: 1160px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .third-container
+{
+    justify-content: space-between;
+    align-items: flex-end;
+} */
+.third-left
+{
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+   
+    gap: 48px;
+    flex-shrink: 0;
+/* align-items: center; */
+}
+
+
+
+.third-right
+{
+justify-content: right;
+display: flex;
+width: 1500px;
+flex-direction: column;
+align-items: flex-end;
+flex-shrink: 0;
+}
+
+.third-title
+{
+    align-self: stretch;
+    color: var(--dark-blue, #232340);
+    padding-left: 30px;
+
+/* H1/Desktop */
+font-family: Lexend Deca;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 128% */
+}
+.third-des
+{
+    align-self: stretch;
+    color: rgba(35, 35, 64, 0.90);
+
+/* Paragraph/Desktop */
+font-family: Lexend Deca;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+}
+.image-con{
+    width: 465px;
+    height: 465px;
+
+    background-image: url(/public/Third.png);
+    align-items: flex-end;
+}
+.th-first
+{
+    width: 190px;
+    height: 81.5px;
+    flex-shrink: 0;
+    position: relative;
+top: 120px;
+left: 210px;
+
+}
+.th-second
+{
+    width: 190px;
+height: 181.522px;
+flex-shrink: 0;
+position: relative;
+top: 260px;
+left: 20px;
+
+
+
+}

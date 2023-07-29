@@ -1,0 +1,101 @@
+/* .second
+{
+    background: var(--off-white, #F5F5F5);
+} */
+.second-wrapper
+{
+    display: flex;
+width: 1160px;
+justify-content: space-between;
+/* align-items: center; */
+
+}
+
+.image-container{
+    /* width: 30rem;
+    height: 30rem;
+    overflow: hidden; */
+    width: 465px;
+height: 465px;
+padding-left: 0%;
+    background-image: url(./Rectangle.png);
+    align-items: flex-end;
+}
+/* .first{
+    width: 565px;
+height: 565px;
+position: relative;
+flex-shrink: 0;
+top: 0;
+left: 0;
+z-index: -1;
+} */
+.second
+{
+    width: 300px;
+height: 110px;
+padding-top: 20px;
+padding-left: 80px;
+padding-right:none;
+
+/* background: url('./Rectangle.png'), lightgray 50% / cover no-repeat; */
+top: 25px;
+left: 50px;
+
+}
+.second-title
+{
+    color: var(--dark-blue, #232340);
+/* H1/Desktop */
+font-family: Lexend Deca;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 64px; /* 128% */
+}
+.second-right
+{
+justify-content: left;
+display: flex;
+width: 600px;
+flex-direction: column;
+align-items: flex-start;
+gap: 38px;
+flex-shrink: 0;
+}
+.second-des
+{
+    align-self: stretch;
+    color: rgba(35, 35, 64, 0.90);
+
+/* Paragraph/Desktop */
+font-family: Lexend Deca;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px; /* 150% */
+}
+.learn
+{
+    color: var(--soft-blue, #5468E7);
+
+/* Link */
+font-family: Lexend Deca;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 24px */
+text-decoration-line: underline;
+}
+.arrow
+{
+    width: 30px;
+height: 30px;
+}
+.second-con
+{
+    padding-left: 100px;
+display: flex;
+align-items: center;
+gap: 8px;
+}

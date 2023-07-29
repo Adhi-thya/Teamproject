@@ -1,0 +1,36 @@
+.hero-wrapper
+{
+    color: whitesmoke;
+    position: relative;
+    text-align: left;
+    
+    padding-bottom: 2rem;
+    padding-top: 10rem;
+    padding-left: 19rem;
+
+}
+.in
+{
+    padding: 0.4rem 1.4rem;
+    text-align: left;
+}
+.hero-container
+{
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.title
+{
+    font-size:40px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+span
+{
+    font-size: small;
+}
+.btnn
+{
+   margin-left: 10px;
+   padding: 0.6rem 1.4rem;
+}
